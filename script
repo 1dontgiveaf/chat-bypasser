@@ -1,0 +1,322 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "idontgiveaf’s bypass",
+   LoadingTitle = "idontgiveaf’s bypass",
+   LoadingSubtitle = "by .idontgiveaf",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = Cheesburger,
+      FileName = "can i have cheesburger too"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "e4wm39UHYA",
+      RememberJoins = true
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "woah there buddy",
+      Subtitle = "time for key system",
+      Note = "the key is your mom",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"your mom"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+-- Function to send a message using SayMessageRequest
+local function sendMessage(message)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+end
+
+local BadWord = Window:CreateTab("Bad Words", 4483362458)
+local MainS = BadWord:CreateSection("Main")
+
+local asshole = BadWord:CreateButton({
+   Name = "asshole",
+   Callback = function()
+   	sendMessage("аѕѕһоlе")
+   end,
+})
+
+local ass = BadWord:CreateButton({
+   Name = "ass",
+   Callback = function()
+   	sendMessage("а⁥⁥⁥⁥ѕѕ")
+   end,
+})
+
+local analsex = BadWord:CreateButton({
+   Name = "anal sex",
+   Callback = function()
+   	sendMessage("а⁥⁥⁥⁥n⁥⁥⁥⁥а⁥⁥⁥⁥l⁥⁥⁥⁥ ѕ⁥⁥⁥⁥е⁥⁥⁥⁥х")
+   end,
+})
+
+local Boobs = BadWord:CreateButton({
+   Name = "Boobs",
+   Callback = function()
+   	sendMessage("Вoobs")
+   end,
+})
+
+local Blowjob = BadWord:CreateButton({
+   Name = "Blowjob",
+   Callback = function()
+   	sendMessage("B𐌑 ͜ ͣӏ𐌑 ͜ ͣo𐌑 ͜ ͣw𐌑Job")
+   end,
+})
+
+local cocaine = BadWord:CreateButton({
+   Name = "cocaine",
+   Callback = function()
+   	sendMessage("сосaine")
+   end,
+})
+
+local cock = BadWord:CreateButton({
+   Name = "cock",
+   Callback = function()
+   	sendMessage("сосk")
+   end,
+})
+
+local cocksucker = BadWord:CreateButton({
+   Name = "cock sucker",
+   Callback = function()
+   	sendMessage("сосk suсkеr")
+   end,
+})
+
+local cum = BadWord:CreateButton({
+   Name = "cum",
+   Callback = function()
+   	sendMessage("с⁥⁥⁥⁥um")
+   end,
+})
+
+local hoe = BadWord:CreateButton({
+   Name = "hoe",
+   Callback = function()
+   	sendMessage("һое")
+   end,
+})
+
+
+local hardcoresex = BadWord:CreateButton({
+   Name = "hardcore sex",
+   Callback = function()
+   	sendMessage("h⁥⁥⁥⁥а⁥⁥⁥⁥r⁥⁥⁥⁥d⁥⁥⁥⁥с⁥⁥⁥⁥о⁥⁥⁥⁥r⁥⁥⁥⁥е⁥⁥⁥⁥ ѕ⁥⁥⁥⁥е⁥⁥⁥⁥х")
+   end,
+})
+
+local pussy = BadWord:CreateButton({
+   Name = "pussy",
+   Callback = function()
+   	sendMessage("рu⁥⁥⁥ssу")
+   end,
+})
+
+local pussies = BadWord:CreateButton({
+   Name = "pussies",
+   Callback = function()
+   	sendMessage("р⁥⁥⁥u⁥⁥⁥ѕ⁥⁥⁥ѕ⁥⁥⁥i⁥⁥⁥е⁥⁥⁥ѕ")
+   end,
+})
+
+local BOOBS = BadWord:CreateButton({
+   Name = "BOOBS",
+   Callback = function()
+   	sendMessage("ВOOBS")
+   end,
+})
+
+local BUTTHOLE = BadWord:CreateButton({
+   Name = "BUTTHOLE",
+   Callback = function()
+   	sendMessage("ВUТТ⁥⁥⁥⁥НOLЕ")
+   end,
+})
+
+local BITCHES = BadWord:CreateButton({
+   Name = "BITCHES",
+   Callback = function()
+   	sendMessage("В 𐌢𐌔 IT 𐌢𐌔 ⁥⁥⁥⁥ 𐌢𐌔 ⁥⁥⁥СН 𐌢𐌔 EЅ")
+   end,
+})
+
+local MASTERBATE = BadWord:CreateButton({
+   Name = "MASTERBATE",
+   Callback = function()
+   	sendMessage("МАЅТURВАТЕ")
+   end,
+})
+
+local PISS = BadWord:CreateButton({
+   Name = "PISS",
+   Callback = function()
+   	sendMessage("РӀЅЅ")
+   end,
+})
+
+local PENIS = BadWord:CreateButton({
+   Name = "PENIS",
+   Callback = function()
+   	sendMessage("РЕNIS")
+   end,
+})
+
+local RAPE = BadWord:CreateButton({
+   Name = "RAPE",
+   Callback = function()
+   	sendMessage("RАРЕ")
+   end,
+})
+
+local TITTIES = BadWord:CreateButton({
+   Name = "TITTIES",
+   Callback = function()
+   	sendMessage("ТITTIЕS")
+   end,
+})
+
+local THOT = BadWord:CreateButton({
+   Name = "THOT",
+   Callback = function()
+   	sendMessage("ТН⁥⁥⁥⁥⁥ОТ")
+   end,
+})
+
+local XXX = BadWord:CreateButton({
+   Name = "XXX",
+   Callback = function()
+   	sendMessage("ΧΧΧ")
+   end,
+})
+
+local KYS = BadWord:CreateButton({
+   Name = "KYS",
+   Callback = function()
+   	sendMessage("К⁥⁥⁥⁥⁥YЅ")
+   end,n
+})
+
+local BITCH = BadWord:CreateButton({
+   Name = "BITCH",
+   Callback = function()
+   	sendMessage("ВIT 𐌢𐌔 ⁥⁥⁥⁥⁥⁥⁥ 𐌢𐌔 СH")
+   end,
+})
+
+local BIGBOOBS = BadWord:CreateButton({
+   Name = "BIG BOOBS",
+   Callback = function()
+   	sendMessage("В⁥⁥⁥I⁥⁥⁥G 𐌢𐌔 ВО⁥⁥⁥ОВ⁥⁥⁥S")
+   end,
+})
+
+local BIGBOOTY = BadWord:CreateButton({
+   Name = "BIG BOOTY",
+   Callback = function()
+   	sendMessage("ВIG ВООТY")
+   end,
+})
+
+local pussies2 = BadWord:CreateButton({
+   Name = "pussies (other)",
+   Callback = function()
+   	sendMessage("р⁥⁥⁥u⁥⁥⁥ѕ⁥⁥⁥ѕ⁥⁥⁥i⁥⁥⁥е⁥⁥⁥ѕ")
+   end,
+})
+
+local bbc = BadWord:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local ESex = Window:CreateTab("E-Sex", 4483362458)
+local MainS = ESex:CreateSection("Main")
+
+local bbc = ESex:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local bbc = ESex:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local bbc = ESex:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local bbc = ESex:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local bbc = ESex:CreateButton({
+   Name = "bbc",
+   Callback = function()
+   	sendMessage("b⁥⁥⁥b⁥⁥⁥с")
+   end,
+})
+
+local idontgiveafs = Window:CreateTab("idontgiveaf’s", 4483362458)
+local MainS = idontgiveafs:CreateSection("Main")
+
+
+local kidsrcs = idontgiveafs:CreateButton({
+   Name = "kids are cock suckers",
+   Callback = function()
+   	sendMessage("⁥⁥⁥k⁥⁥⁥i⁥⁥⁥d⁥⁥⁥ѕ are сосk suсkеrs")
+   end,
+})
+
+local kysfag = idontgiveafs:CreateButton({
+   Name = "kill yourself faggot (works sometimes)",
+   Callback = function()
+   	sendMessage("SLU#Tki￸￸￸￸￸￸llyourselffa￸￸￸￸￸￸ggot")
+   end,
+})
+
+local stfu = idontgiveafs:CreateButton({
+   Name = "shut the fuck up",
+   Callback = function()
+   	sendMessage("SLU#Tѕhutthеf￸￸￸￸￸￸u￸￸￸￸￸￸ck￸￸￸￸￸uр ￸￸￸￸￸￸")
+   end,
+})
+
+local bbc = idontgiveafs:CreateButton({
+   Name = "heil hitler",
+   Callback = function()
+   	sendMessage("SLU#Thei￸￸￸￸￸￸lhitl￸￸￸￸￸￸er ￸￸￸￸￸￸")
+   end,
+})
+
+local fn = idontgiveafs:CreateButton({
+   Name = "fuckin nigger",
+   Callback = function()
+   sendMessage("SLU#Tfuc￸￸￸￸￸￸kinni￸￸￸￸￸￸gg￸￸￸￸￸￸er ￸￸￸￸￸￸")
+   end,
+})
+
+local cmaagr = idontgiveafs:CreateButton({
+   Name = "clap my а⁥⁥⁥⁥ѕѕ and get 1000 robux (options: oral/а⁥⁥⁥⁥nа⁥⁥⁥⁥l)",
+   Callback = function()
+   	sendMessage("clap my а⁥⁥⁥⁥ѕѕ and get 1000 robux (options: oral/а⁥⁥⁥⁥nа⁥⁥⁥⁥l)")
+   end,
+})
